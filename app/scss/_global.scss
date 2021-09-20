@@ -1,0 +1,20 @@
+.body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    @extend %Gilroy-500;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+.container{
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
